@@ -509,6 +509,13 @@ impl<A: Array> ArrayVec<A> {
     }
   }
 
+  pub const fn from_array_len_const(data: A, len: u16) -> Self {
+    Self {
+      data,
+      len,
+    }
+  }
+
   /// Inserts an item at the position given, moving all following elements +1
   /// index.
   ///

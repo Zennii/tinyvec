@@ -5,6 +5,8 @@
 
 ![Unsafe-Zero-Percent](https://img.shields.io/badge/Unsafety-0%25-brightgreen.svg)
 
+Changed to support more constant operations because I know what I'm doing
+
 # tinyvec
 
 A 100% safe crate of vec-like types.
